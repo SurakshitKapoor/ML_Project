@@ -1,0 +1,57 @@
+# Virtual environment
+venv/
+ENV/
+env/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# Logs
+*.log
+
+# Data or output files (optional, comment out if needed)
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.db
+*.sqlite3
+*.h5
+*.pkl
+*.joblib
+
+# Secrets or environment configs
+.env
+.env.*
+
+# MacOS and system files
+.DS_Store
+Thumbs.db
+
+# Pip packages
+pip-wheel-metadata/
+*.whl
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+
+# MLflow or experiment folders (optional)
+mlruns/
+tensorboard/
